@@ -5,3 +5,16 @@ Git Commands:-
 4)git add .
 5)git status
 6)git commit -m "Initial Commit"
+7)git clone <url>   //Clone a Git repository using git clone
+  e.g-git clone https://github.com/username/project.git
+8)git clone <url> <directory>   //Clone a Git repository into a specific folder
+  e.g.-git clone https://github.com/username/project.git myproject
+9) ls -l  //verify that you git project was correctly cloned to the destination folder.
+10)git branch  //to check the current branch cloned by running the “git branch” command.
+11)git clone -b <branch> <remote_repo>  //Clone a specific branch
+   e.g.-git clone -b dev https://github.com/username/project.git
+12)git branch
+13)git branch -a  // if you run “git branch” with the “-a” (for all) option, you are going to see that all your branches were fetched.
+14)git clone --single-branch --branch <branchn> <repository>  //Clone exclusively one branch
+   e.g.-git clone --single-branch --branch sagar/TRAIN-27--Login https://github.com/Waveaxistech/Waveaxis-Internal-Website-Frontend.git
+15)git branch -a  //you have to execute this command into the Git repository you just cloned.
